@@ -98,7 +98,8 @@ header .container a#btn-menu h2{
 section{
     padding:0 1em;
 }
-.container.about-us{
+/*SECTIONS STYLE*/
+.about-us, .location{
     color: #369;
     background: #D0E1F3;
     font-weight: 500;
@@ -106,8 +107,13 @@ section{
     text-align: center;
     padding: 4%;
 }
-.container.about-us h2{
+.container.about-us h2, .container.location h2{
     font-size: 20px;
+}
+
+/*LOCATION STYLE*/
+.container.location iframe{
+    width: 100%;
 }
 
 
