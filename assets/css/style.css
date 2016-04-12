@@ -99,7 +99,7 @@ section{
     padding:0 1em;
 }
 /*SECTIONS STYLE*/
-.about-us, .location{
+.about-us, .location, .main-page{
     color: #369;
     background: #D0E1F3;
     font-weight: 500;
