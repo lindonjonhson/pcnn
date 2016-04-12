@@ -1,0 +1,123 @@
+/*http://www.colourlovers.com/palette/121/Daytona*/
+
+body{
+	margin: 0;
+	font-family: "Source Sans Pro",sans-serif;
+}
+header{
+	background-color: #369;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    top: 0;
+}
+header h1{
+    display: inline-block;
+    line-height: 225%;
+    color: transparent;
+    text-indent: -9999px;
+    background: url(../img/pcnn_logo_v_gabriel.svg) no-repeat center 70%;
+    background-size: 140%;
+}
+footer{
+    background-color: #369;
+    text-align: center;
+}
+#options{
+    padding: 5%;
+    /*Mudar a visibilidade depois*/
+    display: none;
+}
+#options.visible_options{
+    display: block;
+}
+#options ul li{
+    text-align: center;
+    padding: 2%;
+    background-color: #4983BD;
+    margin: 1% 0;
+}
+#options ul li a{
+    text-decoration: none;
+    color:#fff;
+}
+header .container{
+    position: relative;
+}
+h1{
+	font-size: 30px;
+}
+h1, .section-title, .section-description{
+	margin: 0;
+	color: #fff;
+}
+header .container a#btn-menu{
+    text-align: right;
+    position: absolute;
+    display: inline-block;
+    top: 22px;
+    right: 2%;
+    text-decoration: none;
+}
+header .container a#btn-menu h2{
+    color: transparent;
+    background: url(../img/hamburger.png) no-repeat center;
+    background-size: 150%;
+    padding: 2%;
+}
+.header{
+    position: relative;
+}
+.section-title, .section-description{
+    padding: 10px;
+    background: rgba(0,0,0,0.5);
+}
+.footer{
+    margin: 0;
+    color: #fff;
+    display: block;
+}
+.footer .address{
+    background-color:#4983BD;
+}
+.footer span{
+    display: block;
+}
+.footer span, .footer .address{
+    padding: 15px 0;
+}
+.section-title{
+    display: inline-block;
+    font-size: 1.5em;
+    margin: 23px 0;
+}
+.content{
+	margin-top: 85px;
+}
+section{
+    padding:0 1em;
+}
+.container.about-us{
+    color: #369;
+    background: #D0E1F3;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+    padding: 4%;
+}
+.container.about-us h2{
+    font-size: 20px;
+}
+
+
+/*HERE COMES THE MEDIA QUERIES AND THE PROGRESSIVE ENHACEMENT*/
+@media (min-width:465px) {
+    .container{
+        width: 70%;
+        margin: 0 auto;
+    }
+    #menu_mobile, #btn-menu{
+        display: none;
+    }
+}
