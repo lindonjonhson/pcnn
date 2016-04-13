@@ -99,7 +99,7 @@ section{
     padding:0 1em;
 }
 /*SECTIONS STYLE*/
-.about-us, .location, .main-page{
+.about-us, .location, .main-page, .services{
     color: #369;
     background: #D0E1F3;
     font-weight: 500;
@@ -107,8 +107,13 @@ section{
     text-align: center;
     padding: 4%;
 }
-.container.about-us h2, .container.location h2{
+.container.about-us h2, .container.location h2, .container.main-page h2, .container.services h2,
+.container.services h3{
     font-size: 20px;
+}
+
+.container.services strong{
+    font-weight: 600;
 }
 
 /*LOCATION STYLE*/
